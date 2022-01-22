@@ -4,7 +4,7 @@
 	<button onclick="My_First_Function()">
 	</button>
 	<p id="Irish"></p>
-	<script src="Basic_Javascript_1.js>
+	<script src="Basic_Javascript_1.js">
 	</script>
 </body>
 <html>

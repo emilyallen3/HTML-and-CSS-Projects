@@ -1,0 +1,14 @@
+<!DOCUTYPE HTML>
+<html>
+	<head>
+		<title>This is my amazing WebPage!</title>
+		<div style="color: green">
+			<p>My kids like the show <i>Cocomelon</i>.</p>
+		</div>
+	</head>
+	<body>
+		<div style="color: rgb(250, 5, 15)">
+		<p><h5><i>Yes, yes, yes! I like to wear my shoes!</i></h5></p>
+		</div>
+	</body>
+</html>
