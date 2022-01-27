@@ -1,15 +1,14 @@
 <!DOCUTYPE HTML>
 <html>
-	<link rel="stylesheet" type="text/css" href="Basic_CSS_1.css">
 	<head>
 		<title>This is my amazing WebPage!</title>
+		<div style="color: green">
 			<p>My kids like the show <i>Cocomelon</i>.</p>
+		</div>
 	</head>
 	<body>
+		<div style="color: rgb(250, 5, 15)">
 		<p><h5><i>Yes, yes, yes! I like to wear my shoes!</i></h5></p>
+		</div>
 	</body>
-	<footer>
-		<p><h1>Good! Good! Shoes are good for you!</h1></p>
-	</footer>
-	<h1>
 </html>

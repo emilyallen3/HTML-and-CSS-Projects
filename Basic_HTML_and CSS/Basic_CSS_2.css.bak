@@ -1,0 +1,7 @@
+p {
+	color: purple;
+	background: yellow;
+	font-size: 25;
+	text-align: right;
+	text-shadow: 1px 1px red;
+}
