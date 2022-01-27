@@ -1,7 +1,7 @@
-p {
+h1 {
 	color: purple;
 	background: yellow;
 	font-size: 25;
 	text-align: right;
-	text-shadow: 1px 1px red;
+	text-shadow: 1.5px 1.5px red;
 }
