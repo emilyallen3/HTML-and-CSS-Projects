@@ -1,0 +1,10 @@
+<!DOCUTYPE HTML>
+<html>
+	<form action="" method="get">
+		First Name: <input type="text" name="First_Name">
+		Last Name: <input type="text" name="Last_Name">
+		Email: <input type="text" name="Email">
+		Phone Number: <input type="text" name="Phone_Number">
+		<input type="submit" value="SUBMIT">
+	</form>
+</html>
