@@ -1,21 +1,17 @@
 body {
     background: #184352
 }
-.wrap {
+.nav-container {
     top: 0;
     left: 0;
-    height: auto;
-    width: 100%;
-}
-.menu-container {
-    top: 0;
-    left: 0;
-    /* To the top edge of the screen*/
     position: absolute;
     width: 100%;
-    background-color: #184352;
+    background-color: pink;
+    padding: 20px;
+    border: 3px solid hotpink;
+
 }
-.menu {
+.navbar {
     font: bold 12px/18px sans-serif;
     text-align: center;
     display: inline;
@@ -23,22 +19,22 @@ body {
     padding: 0;
     list-style: none;
 }
-.menu li {
-    color: #B3B3B3;
+.navbar li {
+    color: #fff;
     display: inline-block;
     margin-right: -2px;
     position: relative;
     padding: 12px 40px;
-    border: 1px solid #9D9FA2;
+    border: 1px solid hotpink;
     border-radius: 1.5px;
     background-color: #387593;
     cursor: pointer;
 }
-.menu li:hover {
+.navbar li:hover {
     background-color: #5EAFDF;
-    color: #fff;
+    color: pink;
 }
-.menu li:hover ul {
+.navbar li:hover ul {
     display: block;
     opacity: 1;
     /*While hovered, drop-down menu appears. This also avoids a block-level bug. */
@@ -57,9 +53,141 @@ body {
 .submenu li {
     background-color: #387593;
     display: block;
-    color: #B3B3B3;
+    color: #fff;
 }
 .submenu li:hover {
-    color: #fff;
+    color: pink;
     background-color: #5EAFDF;
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    margin: 300px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alernate;
+}
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img {
+    filter: saturate(200%);
+    border-radius: 15px 50px;
+    margin: 2em;
+}
+footer {
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-shadow: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+footer a:hover {
+    color: gray;
+}
+
+table,
+td {
+    border-collapse: collapse;
+    border: 1px solid blue;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+th {
+    background-color: yellow;
+    color: black;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: pink;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: 0.5 ease;
+    background-color: lightpink;
+    border-radius: 15px 50px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container:hover .overlay {
+    opacity: 0.9;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.text {
+    color: hotpink;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+.column {
+    color:black;
+    font-family: cursive;
+    font-size: x-large;
+    background-color: lightpink;
+    flex: 50%;
+    height: 200px;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+p {
+    color: white;
+}
+p:hover {
+    color: purple;
+    font-size: 110%;
+}
+.video-container {
+    position: relative;
+    text-align: center;
+    color: lightpink;
+    font-size: x-large;
+}
+.video {
+    border: 2px solid black;
+}
+.video-overlay {
+    position:absolute;
+    
 }
