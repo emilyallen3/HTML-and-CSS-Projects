@@ -4,7 +4,7 @@ This is where I will keep files related to my HTML and CSS assignments from the 
 I have created full websites in HTML and CSS.
 
 PROJECTS
-Amusement Park Graveyard Website
+[Amusement Park Graveyard Website](https://github.com/emilyallen3/HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS/Website_Project)
   This is an example of a home page for a Funeral Home/Cemetery company. It is styled using CSS and contains a navbar, image containers and a form.
   
 Movie Theater Website
